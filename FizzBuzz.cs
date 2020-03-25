@@ -14,7 +14,11 @@ namespace FizzBuzz
 
         public String FizzBuzz(int InputNumber)
         {
-            return InputNumber.ToString();
+            string OutputValue;
+
+            if (InputNumber % 3 == 0) OutputValue = "Fizz";
+            else OutputValue = InputNumber.ToString();
+            return OutputValue;
         }
     }
 }
