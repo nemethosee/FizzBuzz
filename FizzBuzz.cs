@@ -16,7 +16,8 @@ namespace FizzBuzz
         {
             string OutputValue;
 
-            if (InputNumber % 3 == 0) OutputValue = "Fizz";
+            if ((InputNumber % 3 == 0) && (InputNumber % 5 == 0)) OutputValue = "FizzBuzz";
+            else if (InputNumber % 3 == 0) OutputValue = "Fizz";
             else if (InputNumber % 5 == 0) OutputValue = "Buzz";
             else OutputValue = InputNumber.ToString();
             return OutputValue;
