@@ -22,5 +22,13 @@ namespace test_FizzBuzz
             Assert.AreEqual("Fizz", obj_FizzBuzz.FizzBuzz(3));
             Assert.AreEqual("Fizz", obj_FizzBuzz.FizzBuzz(6));
         }
+
+        [TestMethod]
+        public void ReturnBuzzWhenNumberIsMultipleOf5()
+        {
+            cls_FizzBuzz obj_FizzBuzz = new cls_FizzBuzz();
+            Assert.AreEqual("Buzz", obj_FizzBuzz.FizzBuzz(5));
+            Assert.AreEqual("Buzz", obj_FizzBuzz.FizzBuzz(10));
+        }
     }
 }
