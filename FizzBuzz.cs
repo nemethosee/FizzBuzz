@@ -14,7 +14,7 @@ namespace FizzBuzz
 
         public String FizzBuzz(int InputNumber)
         {
-            return null;
+            return InputNumber.ToString();
         }
     }
 }
