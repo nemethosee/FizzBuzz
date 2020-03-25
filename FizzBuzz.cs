@@ -8,6 +8,10 @@ namespace FizzBuzz
 {
     public class cls_FizzBuzz
     {
+        static void Main(string[] args)
+        {
+        }
+
         public String FizzBuzz(int InputNumber)
         {
             return null;
